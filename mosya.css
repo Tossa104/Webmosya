@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/* header*/
+h5 {
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+header .inner {
+    width: 100%;
+
+}
+
+header .flexbox {
+    align-items: center;
+    display: flex;
+}
+
+.logo-img img {
+    margin-left: 12px;
+    margin-right: 0;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.nav-global li {
+    margin: 12px;
+    display: inline-block;
+}
+.btn2:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+}
+.btn2 {
+    color: black;
+    font-weight: bold;
+}
+.btn1 {
+    color: darkcyan;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.btn1:hover {
+    color: darkcyan;
+}
+
+.cover-img {
+	height: 200px;
+	display: table;
+	width: 100%;
+	background-size: cover;
+}
+@media only screen and (min-width : 768px) and (max-width : 1600px) {
+	.cover-img {
+		height: 500px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.cover-img {
+		height: 300px;
+	}
+}
+.cover-text {
+	display: table-cell;
+	vertical-align: middle;
+  text-align: center;
+}
+.col-12 h6{
+    font-weight: bold;
+}
+
+.address,.syurui,.ninnzuu {
+    width: 100%;
+    padding: 8px;
+}
+
+h1 {
+    font-weight: 650;
+    padding: 12px;
+    font-size: 2.5rem;
+    padding-right: 0rem;
+}
+h1 .text-muted {
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+.col-12 button {
+    width: 100%;
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    padding: 12px;
+    box-shadow: none;
+    border-radius: 8px;
+}
+.col-12 button:focus {
+    outline-color: grey;
+}
+.saigo:hover {
+    text-decoration: underline;
+    text-decoration-color:grey;
+    color: grey;
+}
+.saigo {
+    color: grey;
+}
